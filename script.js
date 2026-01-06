@@ -7,9 +7,11 @@ function firstNonRepeatedChar(str) {
 			if(str[i] === str[j]) count++;
 		}
 		if(count === 1) return str[i];
+	
 	}
-	return null;
+		return null;
 }
  const input = prompt("Enter a string");
  alert(firstNonRepeatedChar(input)); 
+
 
